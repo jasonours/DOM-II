@@ -34,7 +34,7 @@ const button = document.querySelectorAll('.btn');
 
 button.forEach(button => {
     button.addEventListener('click', () => {
-        button.style.background = 'red';
+        button.style.background = 'black';
         button.style.color = 'white';
     });
 })
@@ -78,4 +78,6 @@ paragraph.forEach(paragraph => {
         paragraph.style.background = 'white';
     });
 })
+
+
 
