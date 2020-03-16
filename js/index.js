@@ -1,6 +1,7 @@
 // Your code goes here
 
 
+// Header - 2
 const header = document.querySelector('header');
 
 header.addEventListener('mouseover', () => {
@@ -15,6 +16,7 @@ header.addEventListener('mouseout', () => {
 });
 
 
+// Images - 2
 const images = document.querySelectorAll('.img-content img')
 
 images.forEach(images => {
@@ -30,6 +32,7 @@ images.forEach(images => {
 })
 
 
+// Button - 2
 const button = document.querySelectorAll('.btn');
 
 button.forEach(button => {
@@ -47,6 +50,7 @@ button.forEach(button => {
 })
 
 
+// Bottom Image - 2 (with GSAP)
 const bottomimage = document.querySelector('.content-destination img');
 
 bottomimage.addEventListener('mousedown', () => {
@@ -59,6 +63,7 @@ bottomimage.addEventListener('mouseup', () => {
 })  
 
 
+// Paragraph - 2 
 const paragraph = document.querySelectorAll('p');
 
 paragraph.forEach(paragraph => {
