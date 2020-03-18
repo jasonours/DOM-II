@@ -13,7 +13,19 @@ header.addEventListener('mouseover', () => {
 header.addEventListener('mouseout', () => {
     header.style.background = 'white';
     header.style.fontWeight = 'normal';
+    header.style.color = 'black';
 });
+
+const funbus = document.querySelector('.intro img')
+
+funbus.addEventListener('mouseenter', () => {
+    funbus.style.transform = 'scale(.5)';
+})
+
+funbus.addEventListener('mouseleave', () => {
+    funbus.style.transform = 'scale(1)';
+})
+
 
 
 // Images - 2
