@@ -16,6 +16,7 @@ header.addEventListener('mouseout', () => {
     header.style.color = 'black';
 });
 
+// Fun bus Image - 2
 const funbus = document.querySelector('.intro img')
 
 funbus.addEventListener('mouseenter', () => {
@@ -44,7 +45,7 @@ images.forEach(images => {
 })
 
 
-// Button - 2
+// Button - 3
 const button = document.querySelectorAll('.btn');
 
 button.forEach(button => {
@@ -55,14 +56,21 @@ button.forEach(button => {
 })
 
 button.forEach(button => {
-    button.addEventListener('dblclick', () => {
+    button.addEventListener('auxclick', () => {
         button.style.background = 'white';
         button.style.color = '#17A2B8';
     });
 })
 
+button.forEach(button => {
+    button.addEventListener('dblclick', () => {
+        button.style.background = 'yellow';
+        button.style.color = 'black';
+    });
+})
 
-// Bottom Image - 2 (with GSAP)
+
+// Bottom Image - 2 (with GSAP) not unique
 const bottomimage = document.querySelector('.content-destination img');
 
 bottomimage.addEventListener('mousedown', () => {
@@ -75,7 +83,7 @@ bottomimage.addEventListener('mouseup', () => {
 })  
 
 
-// Paragraph - 2 
+// Paragraph - 2 not unique
 const paragraph = document.querySelectorAll('p');
 
 paragraph.forEach(paragraph => {
